@@ -1,0 +1,315 @@
+  * {
+  margin: 0;
+  }
+
+  header {
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      width: 99%; 
+      background-color: rgb(255, 255, 255); 
+      z-index: 1000;
+      box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+  }
+  
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .portfolio-section-photos {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+  .grid-paysages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+  .lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #3A6D8C;
+  }
+   
+
+  .photo-hover2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #213555;
+  }
+    
+  .photo-hover3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #3E5879;
+  }
+
+  .photo-hover4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #D8C4B6;
+  }
+
+  .photo-hover5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #001F3F;
+  }
+
+  .photo-hover6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #F5EFE7;
+  }
+
+  .photo-hover7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #295F98;
+  }
+
+  .photo-hover8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #6A9AB0;
+  }
+
+  .photo-hover9 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #CBDCEB;
+  }
+
+  .photo-hover10 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #133E87;
+  }
+
+  .photo-hover11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #608BC1;
+  }
+
+  .photo-hover12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: #FFF1DB;
+  }
+    
+  .lien-conteneur-photo:hover .photo-hover,
+  .lien-conteneur-photo:hover .photo-hover2,
+  .lien-conteneur-photo:hover .photo-hover3,
+  .lien-conteneur-photo:hover .photo-hover4,
+  .lien-conteneur-photo:hover .photo-hover5,
+  .lien-conteneur-photo:hover .photo-hover6,
+  .lien-conteneur-photo:hover .photo-hover7,
+  .lien-conteneur-photo:hover .photo-hover8,
+  .lien-conteneur-photo:hover .photo-hover9,
+  .lien-conteneur-photo:hover .photo-hover10,
+  .lien-conteneur-photo:hover .photo-hover11,
+  .lien-conteneur-photo:hover .photo-hover12 {
+    display: none;
+  }
+  
+  p {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2); 
+    color: black;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 996px) {
+    .grid-paysages {
+      grid-template-columns: 1fr 1fr; /* Deux colonnes */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .grid-paysages {
+      grid-template-columns: 1fr;
+    }
+    
+    .photo-hover,
+    .photo-hover2,
+    .photo-hover3,
+    .photo-hover4,
+    .photo-hover5,
+    .photo-hover6,
+    .photo-hover7,
+    .photo-hover8,
+    .photo-hover9,
+    .photo-hover10,
+    .photo-hover11,
+    .photo-hover12 {   /* Pas de hover sur mobile */
+      display: none;
+    }
+
+    .titre:hover {
+      display: none;
+    }
+  }
+
+  div {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+
+  section {
+    padding: 80px;
+  }
+
+  footer,
+  nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px
+  } 
+
+  .titre {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    color: #FFFF;
+    font-family: "Poppins", sans-serif;
+    }
+
+  .titre:hover {
+    z-index: 1;
+    background-color: #E44B5D;
+    width: 100%;
+  }
+
+  a {
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+
+  .button{
+      background-color: #E44B5D; 
+      color: white; 
+      padding: 10px 20px; 
+      text-decoration: none; 
+      border-radius: 5px; 
+      transition: background-color 0.3s; 
+  }
+  
